@@ -1,16 +1,28 @@
-.jumbopic {
-  width: 100%;
-  max-height: 40em;
-  object-fit: cover;
-  transform: translate(0em, -5em);
-}
-
 .jumbotainer {
   background-image: url("/img/angel1-scaled.jpg");
   background-size: cover;
   background-position: 0 -15em;
+  background-repeat: no-repeat;
   width: 100%;
   height: 30em;
   overflow: hidden;
   position: relative;
+}
+
+.jumbotext {
+  color: #bb0000;
+  font-size: 74px;
+  font-weight: 600;
+  text-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  font-family: "Lora", Sans-serif;
+  text-align: center;
+}
+
+.btn-primary {
+  --bs-btn-bg: #bb0000;
+  --bs-btn-border-color: #990000;
+  --bs-btn-hover-bg: #990000;
+  --bs-btn-hover-border-color: #550000;
+  --bs-btn-active-bg: #550000;
+  --bs-btn-active-border-color: #110000;
 }
