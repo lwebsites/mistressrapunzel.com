@@ -1,5 +1,6 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
+title: FAQ
 ---
 ## What Kind of Kinks Can Be Explored?  What Is Allowed?
 

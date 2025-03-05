@@ -1,8 +1,7 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
+title: Terms of Use
 ---
-# Terms of Use
-
 Terms Of Use
 
 Last Updated August 27, 2020
