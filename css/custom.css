@@ -26,3 +26,8 @@
   --bs-btn-active-bg: #550000;
   --bs-btn-active-border-color: #110000;
 }
+
+.form-group {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}

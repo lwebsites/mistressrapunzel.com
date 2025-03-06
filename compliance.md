@@ -1,5 +1,6 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
+title: 18 USC 2257 Compliance Statement
 ---
 Any actual human beings depicted in images or videos appearing on the website located at MistressRapunzel.com (the “Website”, also known as “Mistress Rapunzel”) were at least 18-years old at the time those images or videos were produced.
 

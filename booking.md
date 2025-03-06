@@ -1,5 +1,6 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
+title: Booking
 ---
 
 1. When looking to book a session, you will be expected to be respectful.  Please be prepared to fill out the small contact form as a start.  I will reach out to you to go over specifics, and once we’ve talked I will go over a basic outline for what your personal session will entail (as much or little detail as you’d like, to keep it comfortable but enjoyable for you).

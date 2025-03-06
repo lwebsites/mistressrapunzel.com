@@ -1,7 +1,7 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
+title: Privacy Policy
 ---
-# Privacy Policy
 
 This Privacy Policy describes how we collect, use, and disclose information from users of our Site. This Privacy Policy does not apply to websites, applications, products, or services that display or link to different privacy statements; in the event of a conflict or inconsistency between this Privacy Policy and a privacy policy for such website, application, product, or service, the latter controls.
 
