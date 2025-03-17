@@ -20,7 +20,7 @@ jobs:
         npm run build
         git config --global user.name "github-actions[bot]"
         git config --global user.email "noreply@leif.pl"
-        rm -r node_modules *.md *.njk _includes _data *.json .eleventy.js
+        rm -r node_modules *.md *.njk _includes _data *.json .eleventy.js css img
         mv _site/* .
         rm -r _site
         echo "mistressrepunzel.com" > CNAME
