@@ -5,7 +5,7 @@ title: Contact
 ---
 Please use the contact form if you are curious about or wish to book a session, or book a time to meet up in person to discuss options, if that is more comfortable for you.
 
-<form action="https://formspree.io/f/{form_id}" method="post">
+<form action="https://formspree.io/f/xpwpwygq" method="post">
   <div class="form-group">
     <label for="name">Name</label>
     <input class="form-control" name="Name" id="name" type="text" placeholder="Name">
