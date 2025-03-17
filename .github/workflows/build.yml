@@ -1,0 +1,30 @@
+name: "Build"
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 18
+# Uncomment for ssh
+#   - name: Setup upterm session
+#     uses: lhotari/action-upterm@v1
+    - name: Deploy Preview
+      run: |
+        git clean -fxd
+        npm ci
+        npm run build
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "noreply@leif.pl"
+        rm -r node_modules *.md *.njk _includes _data *.json .eleventy.js
+        mv _site/* .
+        rm -r _site
+        echo "mistressrepunzel.com" > CNAME
+        git add -A -f
+        git checkout -b gh-pages
+        git commit --allow-empty -m "** deploy visr/website@$GITHUB_SHA"
+        git push origin preview -f
