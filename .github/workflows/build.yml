@@ -24,6 +24,7 @@ jobs:
         mv _site/* .
         rm -r _site
         echo "mistressrepunzel.com" > CNAME
+        touch '.nojekyll'
         git add -A -f
         git checkout -b gh-pages
         git commit --allow-empty -m "** deploy visr/website@$GITHUB_SHA"
