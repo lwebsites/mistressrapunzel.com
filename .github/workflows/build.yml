@@ -23,8 +23,8 @@ jobs:
         rm -r node_modules *.md *.njk _includes _data *.json .eleventy.js css img .github .gitignore
         mv _site/* .
         rm -r _site
-        echo "mistressrepunzel.com" > CNAME
+        echo "mistressrapunzel.com" > CNAME
         git add -A -f
         git checkout -b gh-pages
-        git commit --allow-empty -m "** deploy mistressrepunzel.com/website@$GITHUB_SHA"
+        git commit --allow-empty -m "** deploy mistressrapunzel.com/website@$GITHUB_SHA"
         git push origin gh-pages -f
