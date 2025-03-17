@@ -28,4 +28,4 @@ jobs:
         git add -A -f
         git checkout -b gh-pages
         git commit --allow-empty -m "** deploy visr/website@$GITHUB_SHA"
-        git push origin preview -f
+        git push origin gh-pages -f
